@@ -1,0 +1,76 @@
+<!Doctype html>
+<head>
+    <title>Sweet Shop</title>
+    <link rel="manifest" href="./manifest.json" />
+    <link rel="stylesheet" type="text/css" href="./dist/main.css" />
+</head>
+<body>
+    <section class="wrapper">
+        <header>
+            <h1><img src="/resources/images/logo.png" alt="sweetshop" title="sweetshop" /></h1>
+            <nav>
+                <span>MENU</span>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About us</a></li>
+                    
+                </ul>
+            </nav>
+        </header>
+        <section class="contentWrapper">
+            <ul>
+                <li><h1><a href="categoryPage.html">
+                    <figure>
+                        <img src="resources/images/cake.png" alt="cake" title="cake" />
+                    </figure>
+                </a></h1></li>
+                <li><h1><a href="categoryPage.html">
+                        <figure>
+                                <img src="resources/images/pastery.png" alt="cake" title="cake" />
+                            </figure>
+                </a></h1></li>
+                <li><h1><a href="categoryPage.html">
+                        <figure>
+                                <img src="resources/images/macroon.png" alt="cake" title="cake" />
+                            </figure>
+                </a></h1></li>
+                <li><h1><a href="categoryPage.html">
+                        <figure>
+                                <img src="resources/images/icecream.png" alt="cake" title="cake" />
+                            </figure>
+                </a></h1></li>
+                <li><h1><a href="categoryPage.html">
+                    <figure>
+                        <img src="resources/images/cookie.png" alt="cake" title="cake" />
+                    </figure></a></h1></li>
+                <li><h1><a href="categoryPage.html">
+                        <figure>
+                                <img src="resources/images/donut.png" alt="cake" title="cake" />
+                            </figure>
+                </a></h1></li>
+                
+            </ul>
+        </section>
+        <footer>
+            <p>Made with Love - Neha Sharma</p>
+        </footer>
+    </section>
+    <script type="text/javascript" src="./dist/bundle.js"></script>
+    <script>
+            if('serviceWorker' in navigator){
+    window.addEventListener('load', function(){
+       navigator.serviceWorker.register('./serviceworker.js').then(function(){
+           console.log('SW Registered...');
+       },function(err){
+           console.log(err);
+       })
+    })
+}
+else{
+    console.log('nope')
+}
+            
+            </script>
+    
+</body>
+</html>

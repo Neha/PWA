@@ -1,0 +1,32 @@
+{
+    "short_name": "Sweetshop",
+    "name": "Sweet shop",
+    "icons": [
+      {
+        "src": "/resources/images/sweetshopicon-32x32.png",
+        "type": "image/png",
+        "sizes": "32x32"
+      },
+      {
+        "src": "/resources/images/sweetshopicon-64x64.png",
+        "type": "image/png",
+        "sizes": "64x64"
+      },
+      {
+        "src": "/resources/images/sweetshopicon-128x128.png",
+        "type": "image/png",
+        "sizes": "128x128"
+      },
+      {
+        "src": "/resources/images/sweetshopicon-256x256.png",
+        "type": "image/png",
+        "sizes": "256x256"
+      }
+      
+    ],
+    "start_url": "/index.html",
+    "background_color": "#FD8B8B",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#B21515"
+  }
