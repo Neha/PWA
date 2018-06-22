@@ -6,13 +6,13 @@ Webpack Config for the webprojects
 
 var extractTextPlugin = require('extract-text-webpack-plugin');
 var extractPlugin = new extractTextPlugin({
-	filename : './dist/main.css'
+	filename : './main.css'
 })
 
 module.exports = {
 	entry : './resources/scripts/index.js',
 	output : {
-		filename : './dist/bundle.js',
+		filename : './bundle.js',
 
 	},
 	module : {
