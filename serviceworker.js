@@ -1,7 +1,8 @@
-console.log('sw')
+console.log('sw');
 
-const STATIC_CACHE = "3.6";
-const DYNAMIC_CACHE = "1.6";
+
+const STATIC_CACHE = "4";
+const DYNAMIC_CACHE = "4";
 
 var urlsToCache = [
     '/',
@@ -76,3 +77,8 @@ self.addEventListener('fetch', function(e) {
         })
    )
   }) 
+
+
+
+
+

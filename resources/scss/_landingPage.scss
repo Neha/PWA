@@ -1,15 +1,18 @@
 .contentWrapper {
     ul{
         li{
-            width:45%;
+            width:35%;
             background:#fff;
             margin:5px;
             padding:10px;
-            min-height: 180px;
-            display: inline-block;
+            min-height: 80px;
+            display: inline-flex;
             text-align: center;
             border-radius: 30px;
             border:5px solid #FFABAB;
+            display: inline-flex;
+            align-items: center;
+
             h1{
                 font-size:38px;
                 color:#000;

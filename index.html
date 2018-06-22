@@ -1,8 +1,23 @@
 <!Doctype html>
 <head>
     <title>Sweet Shop</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="./manifest.json" />
-    <link rel="stylesheet" type="text/css" href="./dist/main.css" />
+    <link rel="stylesheet" type="text/css" href="./dist/main.css" />    
+     <!-- Add to home screen for Safari on iOS -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="Sweet Shop">
+    <link rel="apple-touch-icon" href="resources/images/sweetshopicon-256x256.png">
+    <meta name="msapplication-TileImage" content="resources/images/sweetshopicon-128x128.png">
+    <meta name="msapplication-TileColor" content="#2F3BA2">
+    <meta name="theme-color" content="#317EFB"/>
+    <!-- Add to homescreen for Chrome on Android. Fallback for manifest.json-->
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="application-name" content="Mausam Web">
+    
+   
 </head>
 <body>
     <section class="wrapper">
@@ -56,21 +71,9 @@
         </footer>
     </section>
     <script type="text/javascript" src="./dist/bundle.js"></script>
-    <script>
-            if('serviceWorker' in navigator){
-    window.addEventListener('load', function(){
-       navigator.serviceWorker.register('./serviceworker.js').then(function(){
-           console.log('SW Registered...');
-       },function(err){
-           console.log(err);
-       })
-    })
-}
-else{
-    console.log('nope')
-}
-            
-            </script>
+    <script type="text/javascript" src="./resources/scripts/script.js"></script>
+    
+    
     
 </body>
 </html>
