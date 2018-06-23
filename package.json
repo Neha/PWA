@@ -1,0 +1,30 @@
+{
+  "name": "newsweetshop",
+  "version": "1.0.0",
+  "description": "",
+  "Author": "Neha Sharma",
+  "main": "index.js",
+  "dependencies": {
+    "node": "^10.5.0",
+    "path": "^0.12.7",
+    "webpack": "^4.12.0",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^0.28.9",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "firebase": "^5.0.4",
+    "node-loader": "^0.6.0",
+    "node-sass": "^4.9.0",
+    "sass-loader": "^6.0.7",
+    "webpack-cli": "^3.0.8"
+  },
+  "scripts": {
+    "start:dev": "webpack-dev-server",
+    "build:prod": "webpack -p"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
