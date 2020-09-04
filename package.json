@@ -16,7 +16,7 @@
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "firebase": "^5.0.4",
     "node-loader": "^0.6.0",
-    "node-sass": "^4.9.0",
+    "node-sass": "^4.13.1",
     "sass-loader": "^6.0.7",
     "webpack-cli": "^3.0.8"
   },
