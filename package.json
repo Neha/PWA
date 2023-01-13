@@ -18,7 +18,7 @@
     "node-loader": "^0.6.0",
     "node-sass": "^4.9.0",
     "sass-loader": "^6.0.7",
-    "webpack-cli": "^3.0.8"
+    "webpack-cli": "^3.3.12"
   },
   "scripts": {
     "start:dev": "webpack-dev-server",
